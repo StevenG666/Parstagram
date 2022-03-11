@@ -15,32 +15,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="instagram Background" translatesAutoresizingMaskIntoConstraints="NO" id="I2m-Vb-jaP">
-                                <rect key="frame" x="-247" y="-625" width="909" height="2147"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Instagram launch screen Icon" translatesAutoresizingMaskIntoConstraints="NO" id="Mqt-bm-DqG">
+                                <rect key="frame" x="107" y="349" width="176" height="146"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="instagram_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Sjh-hc-LOT">
-                                <rect key="frame" x="79.666666666666686" y="246" width="231" height="56"/>
-                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="from A COMPANY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gnb-F7-r3m">
+                                <rect key="frame" x="120" y="735" width="151" height="49"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.9882352941176471" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Sjh-hc-LOT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="79.5" id="58I-V6-sjF"/>
-                            <constraint firstItem="Sjh-hc-LOT" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="JNE-CD-bd8"/>
-                            <constraint firstItem="Sjh-hc-LOT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="202" id="Rbn-7N-yvd"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Sjh-hc-LOT" secondAttribute="trailing" constant="79.5" id="U0P-aJ-l6U"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Sjh-hc-LOT" secondAttribute="bottom" constant="508" id="WGK-EP-jvp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Gnb-F7-r3m" secondAttribute="trailing" constant="119" id="HdE-oU-c99"/>
+                            <constraint firstItem="Mqt-bm-DqG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="LYN-90-6MR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Gnb-F7-r3m" secondAttribute="bottom" constant="26" id="RJr-gr-PKC"/>
+                            <constraint firstItem="Gnb-F7-r3m" firstAttribute="top" secondItem="Mqt-bm-DqG" secondAttribute="bottom" constant="240" id="ekF-70-aUS"/>
+                            <constraint firstItem="Gnb-F7-r3m" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="hwz-2N-fli"/>
+                            <constraint firstItem="Mqt-bm-DqG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="305" id="jdg-wz-YfY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Mqt-bm-DqG" secondAttribute="bottom" constant="315" id="wOx-5Y-1bR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Mqt-bm-DqG" secondAttribute="trailing" constant="107" id="wcV-TT-0Ob"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+            <point key="canvasLocation" x="50.769230769230766" y="374.64454976303318"/>
         </scene>
     </scenes>
     <resources>
-        <image name="instagram Background" width="208.66667175292969" height="208.66667175292969"/>
-        <image name="instagram_logo" width="255" height="108"/>
+        <image name="Instagram launch screen Icon" width="640" height="640"/>
     </resources>
 </document>
