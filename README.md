@@ -23,4 +23,21 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![Parstagram](https://user-images.githubusercontent.com/96842497/157393118-966e0d2c-60df-441e-a0be-53ab44ee2a3b.gif)
+(1) Sign Up
+
+![Instagram_Part1](https://user-images.githubusercontent.com/96842497/157824846-8afbcb77-0151-4765-9bab-0daba14ae663.gif)
+
+(2) Sign In
+
+![Instagram_Part2](https://user-images.githubusercontent.com/96842497/157824875-d99a0da2-45ff-4156-93cc-871d77cd948e.gif)
+
+(3) Post Feed
+
+![Instagram_Part3](https://user-images.githubusercontent.com/96842497/157824895-a5ba8579-a344-40e2-9ab2-021f160da8ad.gif)
+
+(4) View Post
+
+![Instagram_Part4](https://user-images.githubusercontent.com/96842497/157824918-6caf1c2b-ec55-44a6-9b3e-48d4ceb5c01f.gif)
+
+(5) Complete GIF Zip  
+[Instagram_Ultimate.gif.zip](https://github.com/StevenG666/Parstagram/files/8229968/Instagram_Ultimate.gif.zip)
