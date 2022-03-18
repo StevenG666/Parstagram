@@ -8,10 +8,10 @@ Time spent: **6** hours spent in total
 
 The following **required** functionality is completed: (Segmentation Fault Bugs)
 
-- [ ] User stays logged in across restarts. (1pt)
-- [ ] User can log out. (1pt)
-- [ ] User can view comments on a post. (3pts)
-- [ ] User can add a new comment. (5pts)
+- [X] User stays logged in across restarts. (1pt)
+- [X] User can log out. (1pt)
+- [X] User can view comments on a post. (3pts)
+- [X] User can add a new comment. (5pts)
 
 The following **bonus** features are implemented:
 
@@ -22,7 +22,7 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![Instagram6](https://user-images.githubusercontent.com/96842497/158520448-967c158a-5e7b-42cb-9d9d-be7adbab8975.gif)
+![Instagram Part 2](https://user-images.githubusercontent.com/96842497/158914955-c43261d5-ba13-469d-a079-e92f69051a22.gif)
 
 
 # Parstagram - Part I
